@@ -42,6 +42,7 @@ describe('GET /', function () {
       .get('/events')
       //respond with an error
       //add new funtion
+      //add 2nd new funtion
       .replyWithError("Error");
 
     request(app)
